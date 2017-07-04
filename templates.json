@@ -89,6 +89,28 @@
       "/var/lib/mysql"
     ]
   },
+    {
+    "title": "MySQL Alpine",
+    "description": "The most popular open-source database",
+    "categories": [
+      "database"
+    ],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/mysql.png",
+    "image": "wangxian/alpine-mysql",
+    "env": [
+      {
+        "name": "MYSQL_ROOT_PASSWORD",
+        "label": "Root password"
+      }
+    ],
+    "ports": [
+      "3306/tcp"
+    ],
+    "volumes": [
+      "/app/mysql"
+    ]
+  },
   {
     "title": "MariaDB",
     "description": "Performance beyond MySQL",
